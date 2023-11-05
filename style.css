@@ -1,0 +1,42 @@
+body {
+    background-color:beige;
+}
+
+
+.flex-container{
+    border: 1px solid black;
+    background: #ccc;
+    display: flex;
+    flex-direction:row;
+    margin:0 auto;
+
+    flex-flow:row wrap;
+    justify-content:flex-start;
+    /* align-items:center; */
+    /* align-content:center; */
+
+
+}
+
+.caja{
+    border: 1px solid;
+    background-color: white;
+    margin: 5px;
+    width:300px;
+    overflow:hidden;
+
+}
+.c1{
+    background: lightblue;
+    /* order: 1; */
+    flex-grow: 1;
+}
+.c2{
+    background: lightcoral;
+    flex-grow: 1;
+    flex-basis:50%;
+}
+.c3{
+    background: lightgreen;
+    flex-grow: 1;
+}

@@ -1,0 +1,54 @@
+* {
+    border: 0;
+  }
+
+.caja-negra1{
+    background: black;
+    padding: 10px;
+    margin: 10px;
+    display:flex;
+}
+.caja-negra2{
+    background: black;
+    padding: 10px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.gris{
+    background:#34343A;
+    width:100%;
+    display:flex;
+    /* margin:5px; */
+    gap:5px;
+}
+
+.naranja{
+    background:#ff8c00;
+    width:100%;
+    display:flex;
+    /* margin:5px; */
+    gap:5px;
+}
+
+.azul{
+    background:#0000ff;
+    margin:5px;
+    width:100%;
+}
+.rojo{
+    background:#FF005D;
+    margin:10px;
+    width:100%;
+}
+
+.amarillo{
+    background:#FFEA00;
+    margin:10px;
+    width:100%;
+}
+
+
+.sesenta{
+    width:50%;
+}
